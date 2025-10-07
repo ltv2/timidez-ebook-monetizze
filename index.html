@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vencendo a Timidez - O Guia Definitivo</title>
+    
+    <!-- Tailwind CSS para estilização moderna e responsiva -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts para a fonte Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <style>
+        /* Estilos personalizados para complementar o Tailwind */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #111827; /* Fundo escuro base */
+            background-image: linear-gradient(rgba(17, 24, 39, 0.8), rgba(17, 24, 39, 1)), url('https://images.unsplash.com/photo-1671159593326-80a2c134fc6a?auto=format&fit=crop&q=80&w=2400');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+        .text-glow {
+            text-shadow: 0 0 8px rgba(0, 212, 255, 0.6), 0 0 20px rgba(0, 212, 255, 0.4);
+        }
+        .card {
+            background-color: rgba(31, 41, 55, 0.5); /* Fundo de card semi-transparente */
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .btn-primary {
+            transition: all 0.3s ease;
+        }
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 20px rgba(0, 255, 255, 0.2);
+        }
+        .strikethrough {
+            position: relative;
+            display: inline-block;
+        }
+        .strikethrough::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 50%;
+            right: 0;
+            border-top: 2px solid #ef4444; /* Cor do risco */
+            transform: rotate(-5deg);
+        }
+    </style>
+</head>
+<body class="text-gray-300 antialiased">
+
+    <!-- Container Principal -->
+    <div class="container mx-auto px-4 py-8 md:py-16">
+
+        <!-- Seção 1: Herói -->
+        <section id="inicio" class="text-center min-h-screen flex flex-col justify-center items-center">
+            <img src="https://raw.githubusercontent.com/ltv2/timidez-ebook/refs/heads/main/imgs/capa.png" alt="Capa do E-book Vencendo a Timidez" class="w-64 md:w-80 rounded-lg shadow-2xl mb-8" onerror="this.onerror=null;this.src='https://placehold.co/320x480/111827/FFFFFF?text=Capa+do+E-book';">
+            <h1 class="text-4xl md:text-6xl font-extrabold text-white tracking-tight leading-tight">
+                VENCENDO A TIMIDEZ
+            </h1>
+            <h2 class="mt-4 text-xl md:text-2xl font-semibold text-gray-200 max-w-3xl">
+                O Guia Definitivo para Alavancar sua Carreira Profissional
+            </h2>
+            <div class="mt-8 bg-green-500 text-white font-bold px-4 py-2 rounded-md inline-block">
+                🔥 PROMOÇÃO LIMITADA - APENAS HOJE!
+            </div>
+            <div class="mt-10 flex flex-col sm:flex-row gap-4">
+                <a href="https://mon.net.br/3rikfc" class="btn-primary bg-white text-gray-900 font-bold py-4 px-8 rounded-lg text-lg shadow-lg hover:bg-gray-200">
+                    🚀 Garantir Meu Exemplar Agora
+                </a>
+                <a href="#detalhes" class="bg-transparent border-2 border-white text-white font-bold py-4 px-8 rounded-lg text-lg hover:bg-white hover:text-gray-900 transition-colors duration-300">
+                    Saiba Mais
+                </a>
+            </div>
+        </section>
+
+        <!-- Seção 2: Estatísticas -->
+        <section id="detalhes" class="py-16 md:py-24">
+            <div class="max-w-5xl mx-auto text-center">
+                <h2 class="text-3xl md:text-4xl font-bold text-white">
+                    <span class="text-cyan-400 text-glow">60% DOS PROFISSIONAIS</span> PERDEM PROMOÇÕES POR TIMIDEZ
+                </h2>
+                <p class="mt-6 text-lg md:text-xl max-w-3xl mx-auto">
+                    A timidez é um obstáculo silencioso que impacta milhões de carreiras no Brasil. Profissionais talentosos estão perdendo oportunidades valiosas por não conseguirem se expressar com confiança.
+                </p>
+            </div>
+            <div class="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
+                <div class="card p-6 rounded-xl text-center">
+                    <p class="text-5xl font-extrabold text-white">40%</p>
+                    <h3 class="mt-2 font-semibold text-lg text-cyan-300">Sofrem com timidez extrema</h3>
+                    <p class="mt-1 text-gray-400">Brasileiros que enfrentam dificuldades severas no trabalho.</p>
+                </div>
+                <div class="card p-6 rounded-xl text-center">
+                    <p class="text-5xl font-extrabold text-white">23%</p>
+                    <h3 class="mt-2 font-semibold text-lg text-cyan-300">Ganham menos</h3>
+                    <p class="mt-1 text-gray-400">Diferença salarial entre tímidos e extrovertidos na mesma função.</p>
+                </div>
+                <div class="card p-6 rounded-xl text-center">
+                    <p class="text-5xl font-extrabold text-white">78%</p>
+                    <h3 class="mt-2 font-semibold text-lg text-cyan-300">Nunca pedem aumento</h3>
+                    <p class="mt-1 text-gray-400">Profissionais que evitam negociações por medo da rejeição.</p>
+                </div>
+                <div class="card p-6 rounded-xl text-center">
+                    <p class="text-5xl font-extrabold text-white">R$45 mil</p>
+                    <h3 class="mt-2 font-semibold text-lg text-cyan-300">Perda anual média</h3>
+                    <p class="mt-1 text-gray-400">Valor deixado na mesa por falta de assertividade profissional.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção 3: Depoimentos -->
+        <section class="py-16 md:py-24">
+             <div class="text-center max-w-3xl mx-auto">
+                <h2 class="text-3xl md:text-4xl font-bold text-white">VEJA O QUE NOSSOS <span class="text-cyan-400 text-glow">CLIENTES DIZEM</span></h2>
+                <p class="mt-4 text-lg text-gray-400">Mais de 1.247 profissionais já transformaram suas carreiras com este método. Veja depoimentos reais.</p>
+            </div>
+            <div class="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="card p-8 rounded-xl border-t-4 border-cyan-400">
+                    <p class="text-5xl text-cyan-400">“</p>
+                    <p class="italic text-gray-300">Em 30 dias consegui minha primeira promoção em 3 anos! As técnicas são simples e funcionam. Meu gestor percebeu a mudança imediatamente.</p>
+                    <p class="mt-4 font-bold text-white">— Ana Silva, Analista de Marketing</p>
+                </div>
+                <div class="card p-8 rounded-xl border-t-4 border-cyan-400">
+                    <p class="text-5xl text-cyan-400">“</p>
+                    <p class="italic text-gray-300">Finalmente consigo falar em reuniões sem tremer. Os exercícios práticos me ajudaram a desenvolver uma presença mais assertiva. Recomendo!</p>
+                    <p class="mt-4 font-bold text-white">— Carlos Roberto, Desenvolvedor</p>
+                </div>
+                <div class="card p-8 rounded-xl border-t-4 border-cyan-400">
+                    <p class="text-5xl text-cyan-400">“</p>
+                    <p class="italic text-gray-300">Métodos práticos que mudaram minha vida profissional. Consegui pedir aumento e participar de projetos estratégicos. Valeu cada centavo.</p>
+                    <p class="mt-4 font-bold text-white">— Marina Costa, Contadora</p>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Seção 4: Oferta -->
+        <section class="py-16 md:py-24">
+            <div class="text-center">
+                 <h2 class="text-3xl md:text-4xl font-bold text-white">
+                    🚨 ATENÇÃO: <span class="text-cyan-400 text-glow">PROMOÇÃO RELÂMPAGO!</span>
+                </h2>
+            </div>
+            <div class="card mt-12 rounded-2xl overflow-hidden md:flex">
+                <div class="md:w-1/2 p-8 md:p-12 flex flex-col justify-center text-center md:text-left">
+                    <p class="text-2xl font-semibold text-gray-400"><span class="strikethrough">PREÇO NORMAL: R$ 199,90</span></p>
+                    <p class="text-2xl md:text-3xl font-bold text-green-400 mt-2">HOJE APENAS</p>
+                    <p class="text-5xl md:text-7xl font-extrabold text-white my-2">R$ 89,90</p>
+                    <p class="bg-cyan-500 text-white font-bold px-4 py-2 rounded-md inline-block self-center md:self-start">Economia de R$ 110,00</p>
+                </div>
+                <div class="md:w-1/2">
+                    <img src="https://imgproxy.gamma.app/resize/quality:80/resizing_type:fit/width:1200/https://cdn.gamma.app/nu628xnl3tfa3se/generated-images/Uqg8qOTCZ__9AabQzPG_h.png" alt="Capa do E-book Vencendo a Timidez" class="object-cover w-full h-full">
+                </div>
+            </div>
+             <div class="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 text-sm">
+                <div class="bg-gray-800 p-4 rounded-lg border-l-4 border-cyan-400">
+                    <h3 class="font-bold text-white">⏰ Oferta por Tempo Limitado</h3>
+                    <p class="text-gray-400 mt-1">A promoção pode encerrar a qualquer momento.</p>
+                </div>
+                <div class="bg-gray-800 p-4 rounded-lg border-l-4 border-cyan-400">
+                    <h3 class="font-bold text-white">🔐 Acesso Vitalício Garantido</h3>
+                    <p class="text-gray-400 mt-1">Pague uma vez e acesse para sempre.</p>
+                </div>
+                <div class="bg-gray-800 p-4 rounded-lg border-l-4 border-cyan-400">
+                    <h3 class="font-bold text-white">📱 Leia em Qualquer Dispositivo</h3>
+                    <p class="text-gray-400 mt-1">PDF otimizado para celular, tablet e computador.</p>
+                </div>
+                <div class="bg-gray-800 p-4 rounded-lg border-l-4 border-cyan-400">
+                    <h3 class="font-bold text-white">💎 Garantia de Satisfação Total</h3>
+                    <p class="text-gray-400 mt-1">7 dias para pedir seu dinheiro de volta se não gostar.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção 5: CTA Final -->
+        <section class="text-center py-16 md:py-24">
+            <h2 class="text-4xl md:text-5xl font-extrabold text-white">
+                <span class="text-cyan-400 text-glow">PARE DE PERDER</span> OPORTUNIDADES!
+            </h2>
+            <p class="mt-6 text-lg md:text-xl max-w-3xl mx-auto">
+                Sua carreira não pode esperar. Enquanto você hesita, seus colegas avançam. Dê o primeiro passo para sua transformação.
+            </p>
+             <div class="mt-10">
+                <a href="https://mon.net.br/3rikfc" class="btn-primary bg-white text-gray-900 font-bold py-5 px-10 rounded-lg text-xl shadow-lg hover:bg-gray-200">
+                    🚀 COMPRAR AGORA POR R$ 89,90 🚀
+                </a>
+            </div>
+             <blockquote class="mt-12 max-w-2xl mx-auto text-xl italic border-l-4 border-cyan-400 pl-4 text-left">
+                "A timidez já custou caro demais para sua carreira. Hoje é o dia de virar esse jogo."
+            </blockquote>
+        </section>
+
+    </div>
+
+</body>
+</html>
+
